@@ -1,0 +1,27 @@
+{
+  "TEMPLATE_DIR": "/home/users/p/pulfer/indigo_supervised_ad/dataset/scanner/templates",
+  "ORIGINAL_DIR": "/home/users/p/pulfer/indigo_supervised_ad/dataset/scanner/originals_55",
+  "FAKE_DIR" : "/home/users/p/pulfer/indigo_supervised_ad/dataset/scanner/fakes_synthetic",
+
+  "ADDITIONAL_ORIGINALS" : [],
+  "ADDITIONAL_FAKES" : [],
+  "ADDITIONAL_TEST_ORIGINALS" : ["/home/users/p/pulfer/indigo_supervised_ad/dataset/scanner/originals_55"],
+  "ADDITIONAL_TEST_FAKES" : ["/home/users/p/pulfer/indigo_supervised_ad/dataset/scanner/fakes_55_55", "/home/users/p/pulfer/indigo_supervised_ad/dataset/scanner/fakes_76_55"],
+  "BATCH_SIZE" : 16,
+  "BAD_INDICES" : false,
+  "CLASSIFICATION" : true,
+  "EPOCHS" : 300,
+  "LOSS" : "tml",
+  "MLP" : true,
+  "MODEL" : "resnet18",
+  "MULTI_GPU" : true,
+  "PATIENCE" : 100,
+  "PERCENT_TRAIN" : 0.4,
+  "PERCENT_VAL" : 0.1,
+  "RUNS": 5,
+  "SEED" : 0,
+  "STACK": true,
+  "STORE_DIR" : "/home/users/p/pulfer/indigo_supervised_ad/results/synthetic/55",
+  "TEMPLATE_LR" : 0.01,
+  "VERIFICATION_LR" : 0.01
+}

@@ -1,0 +1,17 @@
+{
+  "mode": "t2x",
+  "epochs": 300,
+  "t_dir": "/home/users/p/pulfer/cdp_unsupervised_ad/datasets/1x1/templates",
+  "x_dirs": ["/home/users/p/pulfer/cdp_unsupervised_ad/datasets/1x1/originals_76"],
+  "f_dirs": [
+    "/home/users/p/pulfer/cdp_unsupervised_ad/datasets/1x1/fakes_55_76",
+    "/home/users/p/pulfer/cdp_unsupervised_ad/datasets/1x1/fakes_76_76"
+  ],
+  "result_dir": "/home/users/p/pulfer/cdp_unsupervised_ad/results/wifs/76/seed_0",
+  "no_train": false,
+  "lr": 0.01,
+  "bs": 32,
+  "tp": 0.6,
+  "vp": 0.1,
+  "seed": 0
+}

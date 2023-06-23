@@ -1,0 +1,46 @@
+{
+  "mode": "t2x",
+  "epochs": 300,
+  "t_dir": "/home/users/p/pulfer/cdp_unsupervised_ad/datasets/mobile/orig_template",
+  "x_dirs": [
+    "/home/users/p/pulfer/cdp_unsupervised_ad/datasets/mobile/orig_phone/HPI55_printdpi812.8_printrun1_session1_InvercoteG/iPhone12Pro_run1_ss100_focal12_apperture1/rcod_hist"
+  ],
+  "f_dirs": [
+    "/home/users/p/pulfer/cdp_unsupervised_ad/datasets/mobile/fake_phone/HPI55_printdpi812.8_printrun1_session1_InvercoteG_EHPI55/iPhone12Pro_run1_ss100_focal12_apperture1/rcod_hist",
+    "/home/users/p/pulfer/cdp_unsupervised_ad/datasets/mobile/fake_phone/HPI55_printdpi812.8_printrun1_session1_InvercoteG_EHPI55/iPhone12Pro_run2_ss100_focal12_apperture1/rcod_hist",
+    "/home/users/p/pulfer/cdp_unsupervised_ad/datasets/mobile/fake_phone/HPI55_printdpi812.8_printrun1_session1_InvercoteG_EHPI55/iPhone12Pro_run3_ss100_focal12_apperture1/rcod_hist",
+    "/home/users/p/pulfer/cdp_unsupervised_ad/datasets/mobile/fake_phone/HPI55_printdpi812.8_printrun1_session1_InvercoteG_EHPI55/iPhone12Pro_run4_ss100_focal12_apperture1/rcod_hist",
+    "/home/users/p/pulfer/cdp_unsupervised_ad/datasets/mobile/fake_phone/HPI55_printdpi812.8_printrun1_session1_InvercoteG_EHPI55/iPhone12Pro_run5_ss100_focal12_apperture1/rcod_hist",
+    "/home/users/p/pulfer/cdp_unsupervised_ad/datasets/mobile/fake_phone/HPI55_printdpi812.8_printrun1_session1_InvercoteG_EHPI55/iPhone12Pro_run6_ss100_focal12_apperture1/rcod_hist",
+    "/home/users/p/pulfer/cdp_unsupervised_ad/datasets/mobile/fake_phone/HPI55_printdpi812.8_printrun1_session1_InvercoteG_EHPI55/SamsungGN20U_run1_ss100_focal12_apperture1/rcod_hist",
+    "/home/users/p/pulfer/cdp_unsupervised_ad/datasets/mobile/fake_phone/HPI55_printdpi812.8_printrun1_session1_InvercoteG_EHPI55/SamsungGN20U_run2_ss100_focal12_apperture1/rcod_hist",
+    "/home/users/p/pulfer/cdp_unsupervised_ad/datasets/mobile/fake_phone/HPI55_printdpi812.8_printrun1_session1_InvercoteG_EHPI55/SamsungGN20U_run3_ss100_focal12_apperture1/rcod_hist",
+    "/home/users/p/pulfer/cdp_unsupervised_ad/datasets/mobile/fake_phone/HPI55_printdpi812.8_printrun1_session1_InvercoteG_EHPI55/SamsungGN20U_run4_ss100_focal12_apperture1/rcod_hist",
+    "/home/users/p/pulfer/cdp_unsupervised_ad/datasets/mobile/fake_phone/HPI55_printdpi812.8_printrun1_session1_InvercoteG_EHPI55/SamsungGN20U_run5_ss100_focal12_apperture1/rcod_hist",
+    "/home/users/p/pulfer/cdp_unsupervised_ad/datasets/mobile/fake_phone/HPI55_printdpi812.8_printrun1_session1_InvercoteG_EHPI55/SamsungGN20U_run6_ss100_focal12_apperture1/rcod_hist"
+  ],
+  "orig_names": [
+    "Original iPhone (1)"
+  ],
+  "fake_names": [
+    "Fake iPhone (1)",
+    "Fake iPhone (2)",
+    "Fake iPhone (3)",
+    "Fake iPhone (4)",
+    "Fake iPhone (5)",
+    "Fake iPhone (6)",
+    "Fake Samsung (1)",
+    "Fake Samsung (2)",
+    "Fake Samsung (3)",
+    "Fake Samsung (4)",
+    "Fake Samsung (5)",
+    "Fake Samsung (6)"
+  ],
+  "result_dir": "/home/users/p/pulfer/cdp_unsupervised_ad/results/efficiency/iPhone1_0.002",
+  "no_train": false,
+  "lr": 0.01,
+  "bs": 32,
+  "tp": 0.002,
+  "vp": 0.002,
+  "seed": 0
+}

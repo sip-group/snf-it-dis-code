@@ -1,0 +1,27 @@
+{
+  "TEMPLATE_DIR": "/home/users/p/pulfer/indigo_supervised_ad/dataset/mobile/orig_template",
+  "ORIGINAL_DIR": "/home/users/p/pulfer/indigo_supervised_ad/dataset/mobile/orig_phone/HPI55_printdpi812.8_printrun1_session1_InvercoteG/iPhone12Pro_run1_ss100_focal12_apperture1",
+  "FAKE_DIR" : "/home/users/p/pulfer/indigo_supervised_ad/dataset/mobile/fake_phone/HPI55_printdpi812.8_printrun1_session1_InvercoteG_EHPI55/iPhone12Pro_run2_ss100_focal12_apperture1",
+
+  "ADDITIONAL_ORIGINALS" : [],
+  "ADDITIONAL_FAKES" : [],
+  "ADDITIONAL_TEST_ORIGINALS" : ["/home/users/p/pulfer/indigo_supervised_ad/dataset/mobile/orig_phone/HPI55_printdpi812.8_printrun1_session1_InvercoteG/iPhone12Pro_run1_ss100_focal12_apperture1"],
+  "ADDITIONAL_TEST_FAKES" : ["/home/users/p/pulfer/indigo_supervised_ad/dataset/mobile/fake_phone/HPI55_printdpi812.8_printrun1_session1_InvercoteG_EHPI55/iPhone12Pro_run1_ss100_focal12_apperture1", "/home/users/p/pulfer/indigo_supervised_ad/dataset/mobile/fake_phone/HPI55_printdpi812.8_printrun1_session1_InvercoteG_EHPI55/iPhone12Pro_run2_ss100_focal12_apperture1"],
+  "BATCH_SIZE" : 12,
+  "BAD_INDICES" : false,
+  "CLASSIFICATION" : true,
+  "EPOCHS" : 1000,
+  "LOSS" : "tml",
+  "MLP" : true,
+  "MODEL" : "resnet18",
+  "MULTI_GPU" : true,
+  "PATIENCE" : 100,
+  "PERCENT_TRAIN" : 0.4,
+  "PERCENT_VAL" : 0.1,
+  "RUNS": 5,
+  "SEED" : 0,
+  "STACK": true,
+  "STORE_DIR" : "/home/users/p/pulfer/indigo_supervised_ad/results/b",
+  "TEMPLATE_LR" : 0.005,
+  "VERIFICATION_LR" : 0.005
+}

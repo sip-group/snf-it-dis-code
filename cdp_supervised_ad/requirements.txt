@@ -1,0 +1,11 @@
+numpy~=1.19.2
+pandas~=1.3.4
+seaborn~=0.11.2
+opencv-python
+matplotlib~=3.4.3
+scikit-learn~=1.0.1
+pillow~=8.4.0
+torch
+torchvision~=0.8.2
+tensorboard
+setuptools==59.5.0

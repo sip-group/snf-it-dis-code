@@ -1,0 +1,9 @@
+/datasets
+/results
+/dev_scripts
+*/__pycache__/*
+*.py[cod]
+*.npy
+.DS_Store
+.idea
+*.png

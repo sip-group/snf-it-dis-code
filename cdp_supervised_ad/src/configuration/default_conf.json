@@ -1,0 +1,27 @@
+{
+  "TEMPLATE_DIR": "./t_dir",
+  "ORIGINAL_DIR": "./x_dir",
+  "FAKE_DIR" : "./f_dir",
+
+  "ADDITIONAL_ORIGINALS" : ["./add_x"],
+  "ADDITIONAL_FAKES" : ["./add_f"],
+  "ADDITIONAL_TEST_ORIGINALS" : [],
+  "ADDITIONAL_TEST_FAKES" : [],
+  "BATCH_SIZE" : 8,
+  "BAD_INDICES" : false,
+  "CLASSIFICATION" : false,
+  "EPOCHS" : 300,
+  "LATENT_DIMENSION" : 100,
+  "MLP" : false,
+  "MODEL" : "resnet18",
+  "MULTI_GPU" : false,
+  "PATIENCE" : 20,
+  "PERCENT_TRAIN" : 0.4,
+  "PERCENT_VAL" : 0.1,
+  "RUNS" : 1,
+  "SEED" : 0,
+  "STACK": false,
+  "STORE_DIR" : "./result",
+  "TEMPLATE_LR" : 0.01,
+  "VERIFICATION_LR" : 0.01
+}
